@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
 body{
   /*
   font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
@@ -56,7 +58,7 @@ body{
 #social-links a{
   margin:0.33em;
 }
-
+.is-primary{color:white;}
 .is-primary,
 .button.is-primary,
 .hero.is-primary,
@@ -88,7 +90,18 @@ a.has-text-primary:focus, a.has-text-primary:hover{
 .button.is-primary.is-inverted.is-outlined:hover{
     text-decoration:none!important;
 }
-
+.is-primary h2{
+  color:white!important;
+}
+.footer{
+  position:fixed;
+  bottom:0;
+  text-align:center;
+  justify-content:center;
+  width:100%;
+  padding:0.5rem!important;
+  border-top:1px solid grey;
+}
 @media screen and (min-width: 1024px){
   .section.is-medium {
       padding: 5rem 1.5rem;

@@ -7,6 +7,7 @@ function Nav(){
         navState == '' ? toggleNav('is-active') : toggleNav('');
         console.log(navState);
     }
+    
     return (
     <nav className="navbar is-transparent" role="navigation" aria-label="main navigation">
         <div className="container">
