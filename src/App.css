@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+body{
+  /*
+  font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  */
+  font-family: 'Titillium Web', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+  margin-bottom:1.8rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-brand img{
+  border-radius:50%;
+  height:48px;
+  margin-right:0.5rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#self-portrait{
+  margin-top:-8rem;
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom:2rem;
+  
+}
+#self-portrait img{
+  max-width:220px;
+  min-width:128px;
+}
+.is-rounded{
+  border-radius:50%;
+}
+.big-icon{
+  font-size: 6rem;
+  margin-left: -3rem;
+  position: absolute;
+}
+.margin-for-icon{
+  margin-top: 6.2rem;
+  margin-bottom:0.5rem;
+  padding: 0rem 3rem 4rem 3rem;
+}
+.box{
+  padding:2.25rem 1.25rem 4rem 1.25rem;
+}
+.x3{
+  font-size:3rem;
+}
+.blue-link,
+#contact-info a:hover{
+  text-decoration:underline;
+}
+.divider{
+  margin:0rem 0.33rem 0rem 0.33rem;
+}
+#main-title{
+  margin-bottom:0.5rem;
+}
+#social-links{padding-bottom:1em;}
+#social-links a{
+  margin:0.33em;
 }
 
-.App-link {
-  color: #61dafb;
+.is-primary,
+.button.is-primary,
+.hero.is-primary,
+.button.is-primary.is-inverted.is-outlined:hover,
+.button.is-primary.is-hovered, .button.is-primary:hover{
+    background-color:#293d5e;
+}
+.svg-fill{
+    fill:#293d5e;
+}
+.primary-color,.navbar a:hover,.has-text-primary{
+    color:#293d5e!important;
+}
+a.has-text-primary:focus, a.has-text-primary:hover{
+    color:#293d5e!important;
+    text-decoration:underline;
+}
+.is-primary .title,
+.is-primary .subtitle,
+.blue-link,
+.blue-link:hover,
+#contact-info,
+#contact-info a{
+    color:white;
+}
+.button.is-primary.is-hovered, .button.is-primary:hover{
+    color:white!important;
+}
+.button.is-primary.is-inverted.is-outlined:hover{
+    text-decoration:none!important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (min-width: 1024px){
+  .section.is-medium {
+      padding: 5rem 1.5rem;
   }
 }
